@@ -1,0 +1,33 @@
+
+body { color: black; background: white; }
+
+/* Fonts in the title */
+h1.title { font-family: monospace; font-size: 200%; font-weight: bold; text-align: center; }
+h2.daterange { font-family: monospace; font-size: 125%; text-align: center; }
+h3 { font-family: monospace; font-size: 90%; text-align: center; }
+
+/* Photo captions & Directory titles */
+div.caption { font-family: monospace; font-size: 100%; font-weight: bold; margin: 1em; }
+
+/* Overall fonts on the index and details page */
+div.index { font-family: monospace; font-size: 80%; }
+div.detail { font-family: monospace; font-size: 80%; }
+div.credits { font-family: monospace; font-size: 80%; text-align: right; margin: 10px }
+
+/* Table attributes */
+table.index { background: #ffffff; border: none; border-spacing: 8px; }
+td.index { border: none; padding: 3px }
+table.frame { background: #ffffff; border: none }
+td.frame { border: none; padding: 0px }
+
+/* Image attributes */
+img.index { border: none; }
+img.slide { border: none; }
+img.frame { border: none; }
+
+/* Link attributes */
+a:link { color: blue; }
+a:visited { color: green; }
+a:hover { color: red; }
+a:active { color: red; }
+
