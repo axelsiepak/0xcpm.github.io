@@ -1,33 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap");
 
-body { color: black; background: white; }
+:root {
+  --shadow: 2px 2px 10px #999999, -2px -2px 10px #ffffff;
+  --inner-shadow: inset 2px 2px 10px #999999, inset -2px -2px 10px #ffffff;
+}
 
-/* Fonts in the title */
-h1.title { font-family: "Comic Sans MS",Helvetica,sans-serif; font-size: 200%; font-weight: bold; text-align: center; }
-h2.daterange { font-family: Arial,Helvetica,sans-serif; font-size: 125%; text-align: center; }
-h3 { font-family: Arial,Helvetica,sans-serif; font-size: 90%; text-align: center; }
+* {
+  box-sizing: border-box;
+}
 
-/* Photo captions & Directory titles */
-div.caption { font-family: Arial,Helvetica,sans-serif; font-size: 100%; font-weight: bold; margin: 1em; }
+body {
+  align-items: center;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  font-family: "Mulish", sans-serif;
+  font-size: 112.5%;
+  font-weight: 400;
+  margin: 0;
+  min-height: 100vh;
+  padding-block: clamp(2rem, 10vw, 4rem);
+}
 
-/* Overall fonts on the index and details page */
-div.index { font-family: Arial,Helvetica,sans-serif; font-size: 80%; }
-div.detail { font-family: Arial,Helvetica,sans-serif; font-size: 80%; }
-div.credits { font-family: Arial,Helvetica,sans-serif; font-size: 80%; text-align: right; margin: 10px }
+.container {
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  max-width: 672px;
+  padding: clamp(1em, 5vw, 2em);
+  width: 90%;
+}
 
-/* Table attributes */
-table.index { background: #ffffff; border: none; border-spacing: 8px; }
-td.index { border: none; padding: 3px }
-table.frame { background: #ffffff; border: none }
-td.frame { border: none; padding: 0px }
+header {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
 
-/* Image attributes */
-img.index { border: none; }
-img.slide { border: none; }
-img.frame { border: none; }
+h1 {
+  font-size: clamp(1.9em, 7vw, 4em);
+  font-weight: 700;
+  margin: 0;
+  text-align: center;
+}
 
-/* Link attributes */
-a:link { color: blue; }
-a:visited { color: green; }
-a:hover { color: red; }
-a:active { color: red; }
+a {
+  color: inherit;
+  text-decoration: none;
+}
 
+.picture {
+  border-radius: 50%;
+  box-shadow: var(--inner-shadow);
+  height: 8em;
+  position: relative;
+  width: 8em;
+}
+
+.picture:hover, .picture:focus {
+  box-shadow: var(--shadow);
+  outline: none;
+}
+
+.picture::before {
+  content: "";
+  background: url("homer.jpg");
+  background-size: contain;
+  border-radius: 50%;
+  inset: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+main {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  vertical-align: middle;
+}
+
+.link {
+  border-radius: 5px;
+  box-shadow: var(--shadow);
+  min-width: 20ch;
+  padding: 0.5em 1em;
+  text-align: center;
+}
+
+.link:hover, .link:focus {
+  box-shadow: var(--inner-shadow);
+  outline: none;
+}
+
+.link i {
+  vertical-align: -13%;
+}
