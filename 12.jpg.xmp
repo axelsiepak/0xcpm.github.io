@@ -10,16 +10,16 @@
    xmp:Rating="1"
    xmpMM:DerivedFrom="12.jpg"
    darktable:import_timestamp="1683679966"
-   darktable:change_timestamp="1683679984"
+   darktable:change_timestamp="1683680183"
    darktable:export_timestamp="-1"
    darktable:print_timestamp="-1"
    darktable:xmp_version="4"
    darktable:raw_params="0"
    darktable:auto_presets_applied="1"
-   darktable:history_end="5"
+   darktable:history_end="6"
    darktable:iop_order_version="1"
    darktable:history_auto_hash="342761ec67d4bfb94a85be34711fe60b"
-   darktable:history_current_hash="342761ec67d4bfb94a85be34711fe60b">
+   darktable:history_current_hash="c76d8502abd375a80aaa5289c6c8a00c">
    <darktable:masks_history>
     <rdf:Seq/>
    </darktable:masks_history>
@@ -71,6 +71,16 @@
       darktable:enabled="1"
       darktable:modversion="2"
       darktable:params="ffffffff"
+      darktable:multi_name=""
+      darktable:multi_priority="0"
+      darktable:blendop_version="10"
+      darktable:blendop_params="gz14eJxjYIAACQYYOOHEgAYY0QVwggZ7CB6pfNoAAEkgGQQ="/>
+     <rdf:li
+      darktable:num="5"
+      darktable:operation="clipping"
+      darktable:enabled="1"
+      darktable:modversion="5"
+      darktable:params="0000000000000000000000000000803f0000803f0000000000000000cdcc4c3ecdcc4c3ecdcc4c3fcdcc4c3ecdcc4c3fcdcc4c3fcdcc4c3ecdcc4c3f000000000000000000000000010000000000000001000000"
       darktable:multi_name=""
       darktable:multi_priority="0"
       darktable:blendop_version="10"
