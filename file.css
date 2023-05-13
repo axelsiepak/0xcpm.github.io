@@ -1,0 +1,10 @@
+:root {
+    --font: 'monospace', monospace;
+    --background: black;
+    --color: white;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
