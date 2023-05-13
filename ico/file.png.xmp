@@ -19,7 +19,7 @@
    darktable:history_end="6"
    darktable:iop_order_version="1"
    darktable:history_auto_hash="7c5e216650a0d861d6cd4a47ba42eb5b"
-   darktable:history_current_hash="1acb133c75ef2e9939729ff6111dd425">
+   darktable:history_current_hash="7c5e216650a0d861d6cd4a47ba42eb5b">
    <darktable:masks_history>
     <rdf:Seq/>
    </darktable:masks_history>
@@ -78,7 +78,7 @@
      <rdf:li
       darktable:num="5"
       darktable:operation="negadoctor"
-      darktable:enabled="1"
+      darktable:enabled="0"
       darktable:modversion="2"
       darktable:params="010000000000803f6666e63e0000803e0000803f0000803f0000803f0000803f0000803f0000803f0000803f0000803f0000803faaf10240cdcc4cbdbe9f9a3d000080400000403f08ac6c3f"
       darktable:multi_name=""
