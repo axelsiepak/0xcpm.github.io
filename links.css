@@ -7,8 +7,8 @@
 }
 
 body{
-    background-color: var(--background);
-    color: var(--color);
+    background-color: black;
+    color: white;
     font-family: var(--font);
     margin: 0;
     padding: 0;
@@ -82,7 +82,7 @@ footer{
     border: dashed var(--color) 2px;
     text-align: center;
     text-decoration: none;  
-    color: var(--color);  
+    color: white;  
     word-wrap: break-word;
 
 }
@@ -92,7 +92,7 @@ footer{
 @media (prefers-color-scheme: dark) {
 
     :root {        
-        --background: #202124;
+        --background: black;
         --color: white;
     }
   }
