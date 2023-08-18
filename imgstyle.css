@@ -1,5 +1,5 @@
 
-body { color: black; background: white; }
+body { color: white; background: black; }
 
 /* Fonts in the title */
 h1.title { font-family: monospace; font-size: 200%; font-weight: bold; text-align: center; }
@@ -15,7 +15,7 @@ div.detail { font-family: monospace; font-size: 80%; }
 div.credits { font-family: monospace; font-size: 80%; text-align: right; margin: 10px }
 
 /* Table attributes */
-table.index { background: #ffffff; border: none; border-spacing: 8px; }
+table.index { background: #000000; border: none; border-spacing: 8px; }
 td.index { border: none; padding: 3px }
 table.frame { background: #ffffff; border: none }
 td.frame { border: none; padding: 0px }
@@ -26,8 +26,8 @@ img.slide { border: none; }
 img.frame { border: none; }
 
 /* Link attributes */
-a:link { color: blue; }
+a:link { color: teal; }
 a:visited { color: green; }
-a:hover { color: red; }
-a:active { color: red; }
+a:hover { color: #ff00ff; }
+a:active { color: #ff00ff; }
 
