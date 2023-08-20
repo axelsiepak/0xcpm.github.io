@@ -26,7 +26,7 @@ img.slide { border: none; }
 img.frame { border: none; }
 
 /* Link attributes */
-a:link { color: #008080; }
+a:link { color: blue; }
 a:visited { color: green; }
 a:hover { color: #f28500; }
 a:active { color: #ff00ff; }
