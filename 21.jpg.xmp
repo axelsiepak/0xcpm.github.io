@@ -5,19 +5,26 @@
     xmlns:exif="http://ns.adobe.com/exif/1.0/"
     xmlns:xmp="http://ns.adobe.com/xap/1.0/"
     xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
     xmlns:darktable="http://darktable.sf.net/"
-   exif:DateTimeOriginal="2020:09:12 15:48:52"
+   exif:DateTimeOriginal="2022:08:28 18:16:02"
    xmp:Rating="1"
    xmpMM:DerivedFrom="21.jpg"
-   darktable:import_timestamp="1684303722"
-   darktable:change_timestamp="-1"
-   darktable:export_timestamp="-1"
-   darktable:print_timestamp="-1"
-   darktable:xmp_version="4"
+   darktable:xmp_version="3"
    darktable:raw_params="0"
    darktable:auto_presets_applied="0"
    darktable:history_end="0"
-   darktable:iop_order_version="1">
+   darktable:iop_order_version="0">
+   <dc:creator>
+    <rdf:Seq>
+     <rdf:li>cpm</rdf:li>
+    </rdf:Seq>
+   </dc:creator>
+   <dc:rights>
+    <rdf:Alt>
+     <rdf:li xml:lang="x-default">cc</rdf:li>
+    </rdf:Alt>
+   </dc:rights>
    <darktable:masks_history>
     <rdf:Seq/>
    </darktable:masks_history>
