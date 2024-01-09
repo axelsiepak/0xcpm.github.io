@@ -31,3 +31,30 @@ a:link { color: blue; }
 a:visited { color: green; }
 a:hover { color: #f28500; }
 a:active { color: #ff00ff; }
+
+
+.hamburger-button {
+   background-color: #333;
+   color: white;
+   padding: 15px;
+   font-size: 24px;
+   cursor: pointer;
+}
+
+.nav-links {
+   display: none;
+   background-color: #333;
+   color: white;
+}
+.nav-links a {
+   display: block;
+   padding: 15px;
+   color: white;
+   text-decoration: none;
+}
+.nav-links a:hover {
+   background-color: #111;
+}
+
+
+
