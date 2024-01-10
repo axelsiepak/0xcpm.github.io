@@ -111,10 +111,14 @@ body
               opacity 0.55s ease;
 }
 
+
+
 #menuToggle span:first-child
 {
   transform-origin: 0% 0%;
 }
+
+
 
 #menuToggle span:nth-last-child(2)
 {
@@ -156,7 +160,7 @@ body
 #menu
 {
   position: absolute;
-  width: 250px;
+  width: 300px;
   height: 225vh;
   margin: -100px 0 0 -50px;
   padding: 50px;
