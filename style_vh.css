@@ -157,7 +157,7 @@ body
 {
   position: absolute;
   width: 300px;
-  min-height:100vh;
+  height: 100vh;
   overflow:hidden;
   margin: -100px 0 0 -50px;
   padding: 50px;
