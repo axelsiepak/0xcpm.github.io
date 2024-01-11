@@ -35,9 +35,9 @@ a:active { color: #ff00ff; }
 
 body
 {
-  margin: 0;
+  margin-right: 0;
   padding: 0;
-  width: 100%;
+  width: 97%;
   height: 100vh;
   /* make it look decent enough */
   background: black;
