@@ -1,6 +1,16 @@
 
 
-body { color: white; background: black; }
+body
+{
+  margin-right: 0;
+  padding: 0;
+  width: 97%;
+  height: 100vh;
+  /* make it look decent enough */
+  background: black;
+  color: white;
+  font-family: monospace;
+}
 
 /* Fonts in the title */
 h1.title { font-family: monospace; font-size: 200%; font-weight: bold; text-align: center; }
