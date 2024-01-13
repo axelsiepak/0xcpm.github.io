@@ -43,18 +43,6 @@ a:hover { color: #f28500; }
 a:active { color: #ff00ff; }
 
 
-body
-{
-  margin-right: 0;
-  padding: 0;
-  width: 97%;
-  height: 100vh;
-  /* make it look decent enough */
-  background: black;
-  color: white;
-  font-family: monospace;
-}
-
 #menuToggle
 {
   display: block;
@@ -190,7 +178,7 @@ body
 #menu li
 {
   padding: 10px 0;
-  font-size: 33px;
+  font-size: 40px;
   color: white;
   font-family: 'Ubuntu';
 }
