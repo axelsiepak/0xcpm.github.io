@@ -1,1 +1,1 @@
-gallery written with imageindex
+imageindex gallery
