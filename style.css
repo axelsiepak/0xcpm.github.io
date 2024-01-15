@@ -4,7 +4,7 @@ body
 {
   margin-right: 0;
   padding: 0;
-  width: 97%;
+  width: 100%;
   height: 100vh;
   /* make it look decent enough */
   background: black;
@@ -180,7 +180,7 @@ a:active { color: #ff00ff; }
   padding: 10px 0;
   font-size: 40px;
   color: white;
-  font-family: 'Ubuntu';
+  font-family: 'Maven Pro';
 }
 
 /*
