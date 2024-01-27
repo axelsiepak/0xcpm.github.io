@@ -144,7 +144,7 @@ body
 {
   opacity: 100;
   transform: rotate(45deg) translate(-2px, -1px);
-  background: black;
+  background: white;
 }
 
 /*
@@ -176,7 +176,7 @@ body
   margin: -100px 0 0 -60px;
   padding: 50px;
   padding-top: 125px;
-  background: white;
+  background: black;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
@@ -191,7 +191,7 @@ body
 {
   padding: 10px 0;
   font-size: 40px;
-  color: black;
+  color: white;
   font-family: 'Ubuntu';
 }
 
