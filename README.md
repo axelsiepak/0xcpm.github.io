@@ -1,1 +1,1 @@
-imageindex × openCV gallery
+imageindex
