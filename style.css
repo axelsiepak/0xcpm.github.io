@@ -32,8 +32,8 @@ table.frame { background: #ffffff; border: none }
 td.frame { border-radius: 30px; padding: 0px }
 
 /* Image attributes */
-img.index { border: none; }
-img.slide { border: none; }
+img.index { border-radius: 30px; }
+img.slide { border-radius: 30px; }
 img.frame { border-radius: 30px; }
 
 /* Link attributes */
