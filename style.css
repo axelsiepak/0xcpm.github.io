@@ -32,9 +32,9 @@ table.frame { background: #ffffff; border: none }
 td.frame { border-radius: 25px; padding: 0px }
 
 /* Image attributes */
-img.index { border-radius: 25px; }
-img.slide { border-radius: 25px; }
-img.frame { border-radius: 25px; }
+img.index { border-radius: 20px; }
+img.slide { border-radius: 20px; }
+img.frame { border-radius: 20px; }
 
 /* Link attributes */
 a:link { color: blue; }
