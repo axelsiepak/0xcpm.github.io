@@ -61,7 +61,7 @@ a:active { color: #ff00ff; }
   text-decoration: none;
   color: #232323;
   
-  transition: color 0.3s ease;
+  transition: color 0.25s ease;
 }
 
 #menuToggle a:hover
