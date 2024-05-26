@@ -29,7 +29,7 @@ div.credits { font-family: monospace; font-size: 80%; text-align: right; margin:
 table.index { background: #000000; border: none; border-spacing: 8px; }
 td.index { border: none; padding: 3px }
 table.frame { background: #ffffff; border: none }
-td.frame { border: none; padding: 0px }
+td.frame { border: 10px; padding: 0px }
 
 /* Image attributes */
 img.index { border: 10px; }
