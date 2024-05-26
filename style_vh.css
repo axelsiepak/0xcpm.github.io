@@ -32,9 +32,9 @@ table.frame { background: #ffffff; border: none }
 td.frame { border: none; padding: 0px }
 
 /* Image attributes */
-img.index { border: none; }
-img.slide { border: none; }
-img.frame { border: none; }
+img.index { border: 10px; }
+img.slide { border: 10px; }
+img.frame { border: 10px; }
 
 /* Link attributes */
 a:link { color: blue; }
