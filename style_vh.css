@@ -29,12 +29,12 @@ div.credits { font-family: monospace; font-size: 80%; text-align: right; margin:
 table.index { background: #000000; border: none; border-spacing: 8px; }
 td.index { border: 10px; padding: 3px }
 table.frame { background: #ffffff; border: 10px }
-td.frame { border: 10px; padding: 0px }
+td.frame { border-radius: 10px; padding: 0px }
 
 /* Image attributes */
-img.index { border: 10px; }
-img.slide { border: 10px; }
-img.frame { border: 10px; }
+img.index { border-radius: 10px; }
+img.slide { border-radius: 10px; }
+img.frame { border-radius: 10px; }
 
 /* Link attributes */
 a:link { color: blue; }
