@@ -27,8 +27,8 @@ div.credits { font-family: monospace; font-size: 80%; text-align: right; margin:
 
 /* Table attributes */
 table.index { background: #000000; border: none; border-spacing: 8px; }
-td.index { border: none; padding: 3px }
-table.frame { background: #ffffff; border: none }
+td.index { border: 10px; padding: 3px }
+table.frame { background: #ffffff; border: 10px }
 td.frame { border: 10px; padding: 0px }
 
 /* Image attributes */
