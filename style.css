@@ -27,9 +27,13 @@ div.index { font-family: monospace; font-size: 80%; }
 div.detail { font-family: monospace; font-size: 80%; }
 div.credits { font-family: monospace; font-size: 80%; text-align: right; margin: 10px }
 
+
 /* Table attributes */
 table.index { background: #000000; border: none; border-spacing: 8px; }
-td.index { border: none; padding: 3px }
+td.index { border: 10px; padding: 3px }
+table.frame { background: #ffffff; border: 10px }
+td.frame { border-radius: 10px; padding: 0px }
+
 
 /* Image attributes */
 img.index { border-radius: 20px; }
