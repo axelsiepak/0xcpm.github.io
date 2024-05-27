@@ -22,7 +22,7 @@ div.caption { font-family: monospace; font-size: 100%; font-weight: bold; margin
 
 /* Overall fonts on the index and details page */
 div.index { font-family: monospace; font-size: 80%; }
-div.detail { font-family: monospace; font-size: 80%; }
+div.detail { font-family: monospace; font-size: 100%; }
 div.credits { font-family: monospace; font-size: 80%; text-align: right; margin: 10px }
 
 /* Table attributes */
