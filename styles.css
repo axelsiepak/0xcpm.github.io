@@ -17,6 +17,7 @@ body {
     object-fit: cover;
     cursor: pointer;
     transition: transform 0.2s;
+    margin: 10px
 }
 
 .gallery img:hover {
