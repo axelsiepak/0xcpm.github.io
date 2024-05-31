@@ -13,7 +13,7 @@ body {
 
 .gallery img {
     width: 433px;
-    height: 600px;
+    height: 650px;
     object-fit: cover;
     cursor: pointer;
     transition: transform 0.2s;
