@@ -16,7 +16,7 @@ body {
     object-fit: cover;
     cursor: pointer;
     transition: transform 0.2s;
-    margin: auto;
+    margin: 10px auto 10px;
     border-radius: 10px;
 }
 
