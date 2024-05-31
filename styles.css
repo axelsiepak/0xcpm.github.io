@@ -4,6 +4,8 @@ body {
     background: black;
 }
 
+div.credits { font-family: monospace; font-size: 80%; text-align: right; margin: 10px }
+
 .gallery {
     display: grid ;
     gap: 10px;
