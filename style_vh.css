@@ -1,7 +1,10 @@
 body {
     margin: 0;
     font-family: monospace;
-    background: black;
+    background: black;    
+    color: white;
+    font-family: monospace;
+
 }
 
 div.credits { font-family: monospace; font-size: 80%; text-align: right; margin: 10px }
