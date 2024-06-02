@@ -50,8 +50,8 @@ div.credits { font-family: monospace; font-size: 80%; text-align: right; margin:
 
 .lightbox .close {
     position: absolute;
-    top: 35px;
-    right: 35px;
+    top: 40px;
+    right: 40px;
     color: #f1f1f1;
     font-size: 40px;
     font-weight: bold;
