@@ -236,7 +236,7 @@ div.credits { font-family: monospace; font-size: 80%; text-align: right; margin:
   --color-table-row-even: #f0f0f0;
   --color-table-row-header: #e8e6e6;
   --color-table-row-odd: #fbfbfb;
-  --color-toggle-accent: #d5b895;
+  --color-toggle-accent: #ff7900;
   --color-text: #333;
 )}
 
@@ -256,7 +256,7 @@ html.dark {
   --color-table-row-header: #000;
   --color-table-row-odd: #333333;
   --color-toggle-accent: #a076ce;
-  --color-text: #fafafa;
+  --color-text: #fff;
 }
 
 
