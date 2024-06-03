@@ -279,7 +279,7 @@ html.dark {
 #color-mode-switch svg {
   width: 24px;
   height: 24px;
-  margin: 8px 0 4px;
+  margin: 0 4px;
 }
 
 #color-mode-switch input[type=checkbox] {
