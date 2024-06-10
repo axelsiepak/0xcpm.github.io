@@ -45,7 +45,7 @@ div.credits { font-family: monospace; font-size: 80%; text-align: right; margin:
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+   
 }
 
 .lightbox .close {
