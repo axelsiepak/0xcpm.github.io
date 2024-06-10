@@ -22,7 +22,7 @@ div.credits { font-family: monospace; font-size: 80%; text-align: right; margin:
 }
 
 .gallery img:hover {
-    transform: scale(1.05);
+    transform: scale(1.00);
 }
 
 .lightbox {
