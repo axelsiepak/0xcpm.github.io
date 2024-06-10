@@ -29,9 +29,7 @@ function showNext() {
     lightboxImg.src = images[currentIndex].src;
 }
 
-images.forEach((img, index) => {
-    img.addEventListener('click', () => openLightbox(index));
-});
+
 
 closeBtn.addEventListener('click', closeLightbox);
 prevBtn.addEventListener('click', showPrev);
