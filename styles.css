@@ -6,10 +6,9 @@ div.credits { font-family: monospace; font-size: 80%; text-align: right; margin:
 
 .gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 10px;
     padding: 10px;
-    background-color: var(color-bg)
+    background-color: var(--color-bg);
 }
 
 .gallery img {
