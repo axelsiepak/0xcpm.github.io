@@ -7,9 +7,29 @@ body
   width: 97%;
   height: 100vh;
   /* make it look decent enough */
-  background: black;
-  color: white;
+  background: white;
+  color: black;
   font-family: monospace;
+}
+
+#dark-mode-toggle {
+    display: none;
+}
+
+#dark-mode-toggle:checked ~ p {
+    background-color: black;
+    color: white;
+}
+
+/* Additional styling for label */
+.toggle-label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.toggle-label span {
+    margin-left: 10px;
 }
 
 
