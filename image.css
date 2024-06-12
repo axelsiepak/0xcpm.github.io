@@ -1,6 +1,6 @@
 
 
-body { color: white; background: black; }
+body { color: white; background: black; text-align: center }
 
 /* Fonts in the title */
 h1.title { font-family: monospace; font-size: 200%; font-weight: bold; text-align: center; }
