@@ -1,93 +1,100 @@
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=0.77 user-scalable=no">
-    <title>index</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
-
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html401/strict.dtd">
+<HTML>
+<HEAD>
+<meta name="viewport" content="width=device-width, initial-scale=0.6">
+<META NAME="GENERATOR" CONTENT="imageindex 0.1">
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+<META NAME="Title" CONTENT="image">
+<META NAME="Columns" CONTENT="1">
+<META NAME="ThumbnailX" CONTENT="977">
+<META NAME="ThumbnailY" CONTENT="650">
+<META NAME="DateBegin" CONTENT="201806230649.51">
+<META NAME="DateEnd" CONTENT="202312300955.34">
+<META NAME="NumImages" CONTENT="6">
+<TITLE>home</TITLE>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Jacquard+12+Charted&family=Jersey+20+Charted&display=swap');
-
-@media (prefers-color-scheme: dark) {
-    body {
-        background-color: var(--color-bg);
-        color: var(--color-text);
-    }
-}
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12+Charted&family=Jersey+10+Charted&display=swap');
 </style>
 
 
-<div id="color-mode-switch">
-  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-    <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
-  </svg>
-  <input type="checkbox" id="switch" />
-  <label for="switch">Dark Mode Toggle</label>
-  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-    <path stroke-linecap="round" stroke-linejoin="round" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
-  </svg>
-</div>
+<LINK TYPE="text/css" REL="stylesheet" HREF="style.css">
+</HEAD>
+<BODY>
+<SCRIPT TYPE="text/javascript">
+if (parent.frames.length > 0) {
+   parent.location.href = self.document.location
+};
+
+</SCRIPT>
+
+<nav role="navigation">
+  <div id="menuToggle">
+    <input type="checkbox" />
+    
+    <span></span>
+    <span></span>
+    <span></span>
+    
+    <ul id="menu">
+      <a href="index.html"><li>home</li></a>
+      <a href="about.html"><li>about</li></a>
+      <a href="contact.html"><li>contact</li></a>
+    </ul>
+  </div>
+</nav>
+
+<TABLE WIDTH="100%" CLASS="index">
 
 
 
-    <div class="gallery" style="text-align:center">
-        <img src="https://blue-similar-roundworm-195.mypinata.cloud/ipfs/Qmb69y8D242Bs7eNXTk4n3ahED6CFh8n9PnQbz2xKLnsGC
-" href="/slides/91.html" alt="1">
-        <img src="21.jpg" href="/slides/21.html" alt="0">
-        <img src="84.jpg" href="/slides/84.html" alt="2">
-        <img src ="https://ipfs.io/ipfs/QmeBBhN13DHJrAMYhQHGQSMRdip8D5DbTiz93LtU37hZbe" href="/slides/71.html" alt="5">
-        <img src="42.jpg" href="/slides/42.html" alt="4">     
-        <img src="56.jpg" href="/slides/56.html" alt="6">
-    </div>
+<TR>
+    <TD CLASS="index" VALIGN="middle" ALIGN="center">
+      <A HREF="slides/91.html" TITLE="21.jpg (9.9M)" NAME="21.jpg"><IMG SRC="https://blue-similar-roundworm-195.mypinata.cloud/ipfs/Qmb69y8D242Bs7eNXTk4n3ahED6CFh8n9PnQbz2xKLnsGC" WIDTH="433" HEIGHT="650" ALT=" 21.jpg " CLASS="index"></A>
 
 
 
-  
+    </TD>
+  </TR>
+
+  <TR>
+    <TD CLASS="index" VALIGN="middle" ALIGN="center">
+      <A HREF="slides/21.html" TITLE="21.jpg" NAME="21.jpg"><IMG SRC="21.jpg" WIDTH="433" HEIGHT="650" ALT="21.jpg " CLASS="index"></A>
 
 
-    <script src="script.js"></script>
-    <script type="text/javascript">
-  // Update root html class to set CSS colors
-  const toggleDarkMode = () => {
-    const root = document.querySelector('html');
-    root.classList.toggle('dark');
-  }
+    </TD>
+  </TR>
 
-  // Update local storage value for colorScheme
-  const toggleColorScheme = () => {
-    const colorScheme = localStorage.getItem('colorScheme');
-    if (colorScheme === 'light') localStorage.setItem('colorScheme', 'dark');
-    else localStorage.setItem('colorScheme', 'light');
-  }
+  <TR>
+    <TD CLASS="index" VALIGN="middle" ALIGN="center">
+      <A HREF="slides/84.html" TITLE="84.jpg" NAME="84.jpg"><IMG SRC="thumbnail/84.jpg" WIDTH="433" HEIGHT="650" ALT=" 84.jpg " CLASS="index"></A>
 
-  // Set toggle input handler
-  const toggle = document.querySelector('#color-mode-switch input[type="checkbox"]');
-  if (toggle) toggle.onclick = () => {
-    toggleDarkMode();
-    toggleColorScheme();
-  }
+    </TD>
+  </TR>
 
-  // Check for color scheme on init
-  const checkColorScheme = () => {
-    const colorScheme = localStorage.getItem('colorScheme');
-    // Default to light for first view
-    if (colorScheme === null || colorScheme === undefined) localStorage.setItem('colorScheme', 'light');
-    // If previously saved to dark, toggle switch and update colors
-    if (colorScheme === 'dark') {
-      toggle.checked = true;
-      toggleDarkMode();
-    }
-  }
-  checkColorScheme();
-</script>
+  <TR>
+    <TD CLASS="index" VALIGN="middle" ALIGN="center">
+      <A HREF="slides/71.html" TITLE="71.jpg" NAME="71.jpg"><IMG SRC="https://ipfs.io/ipfs/QmeBBhN13DHJrAMYhQHGQSMRdip8D5DbTiz93LtU37hZbe" WIDTH="433" HEIGHT="650" ALT=" 71.jpg " CLASS="index"></A>
 
+    </TD>
+  </TR>
 
+  <TR>
+    <TD CLASS="index" VALIGN="middle" ALIGN="center">
+      <A HREF="42.jpg" TITLE="42.jpg" NAME="42.jpg"><IMG SRC="42.jpg" WIDTH="433" HEIGHT="650" ALT=" 42.jpg " CLASS="index"></A>
 
-</body>
+   
+    </TD>
+</TR>
 
-</html>
+<TR>
+    <TD CLASS="index" VALIGN="middle" ALIGN="center">
+      <A HREF="slides/56.html" TITLE="56.jpg" NAME="56.jpg"><IMG SRC="56.jpg" WIDTH="433" HEIGHT="650" ALT="56.jpg " CLASS="index"></A> 
+    </TD>
+  </TR>
+
+</TABLE>
+
+</BODY>
+</HTML>
