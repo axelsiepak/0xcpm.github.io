@@ -29,5 +29,5 @@ img.frame { border: none; }
 /* Link attributes */
 a:link { color: blue; }
 a:visited { color: green; }
-a:hover { color: #f28500; }
+a:hover { color: purple; }
 a:active { color: #ff00ff; }
