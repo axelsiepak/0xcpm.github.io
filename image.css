@@ -1,6 +1,6 @@
 
 
-body { color: var(--color-text); background: var(--color-bg); text-align: center }
+body { color: var(--color-text); background: var(--color-bg); text-align: center; width: 97%; }
 
 /* Fonts in the title */
 h1.title { font-family: monospace; font-size: 200%; font-weight: bold; text-align: center; }
