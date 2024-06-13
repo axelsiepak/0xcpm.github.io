@@ -42,7 +42,7 @@ img.slide { border-radius: 10px; }
 img.frame { border-radius: 10px; }
 
 /* Link attributes */
-a:link { color: var(--color-code-text); }
+a:link { color: blue; }
 a:visited { color: green; }
 a:hover { color: #f28500; }
 a:active { color: #ff00ff; }
