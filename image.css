@@ -27,8 +27,8 @@ img.slide { border-radius: 10px; }
 img.frame { border: none; }
 
 /* Link attributes */
-a:link { color: gree; }
-a:visited { color: blue; }
+a:link { color: blue; }
+a:visited { color: green; }
 a:hover { color: purple; }
 a:active { color: #ff00ff; }
 
