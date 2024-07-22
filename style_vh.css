@@ -47,7 +47,7 @@ div.credits { font-family: monospace; font-size: 80%; text-align: right; margin:
 #menuToggle input
 {
   display: block;
-  color: black;
+  color: var(--color-text);
   width: 40px;
   height: 32px;
   position: absolute;
