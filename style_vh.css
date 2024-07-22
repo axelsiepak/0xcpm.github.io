@@ -6,8 +6,8 @@ body
   width: 97%;
   height: 97%;
   /* make it look decent enough */
-  background: black;
-  color: white;
+  background: var(--color-bg);
+  color: var(--color-text);
   font-family: monospace;
 }
 
