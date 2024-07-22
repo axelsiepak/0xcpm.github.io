@@ -104,7 +104,7 @@ a:active { color: #ff00ff; }
   margin-bottom: 5px;
   position: relative;
 
-  background-color: var(--color-bg);
+  background-color: var(--color-text);
   border-radius: 3px;
 
   z-index: 1;
