@@ -63,7 +63,7 @@ a:active { color: #ff00ff; }
 #menuToggle a
 {
   text-decoration: none;
-  color: white;
+  color: var(--color-text);
 
   transition: color 0.25s ease;
 }
