@@ -22,6 +22,7 @@ div.credits { font-family: monospace; font-size: 80%; text-align: right; margin:
   position: relative;
   top: 50px;
   left: 50px;
+  color: var(--color-text);
   
   z-index: 1;
   
