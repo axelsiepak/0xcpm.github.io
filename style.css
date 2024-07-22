@@ -60,7 +60,7 @@ a:active { color: #ff00ff; }
 */
 :root {
   --color-anchor: #337ab7;
-  --color-bg: #fdf6e3;
+  --color-bg: #fff;
   --color-blockquote-text: #777;
   --color-code-bg: #f7f7f7;
   --color-code-text: #333;
@@ -79,7 +79,7 @@ a:active { color: #ff00ff; }
 */
 html.dark {
   --color-anchor: #77e1cd;
-  --color-bg: #073642;
+  --color-bg: #000;
   --color-blockquote-text: #c0bcbc;
   --color-code-bg: #313030;
   --color-code-text: #fefefe;
