@@ -12,7 +12,10 @@ body
   font-family: monospace;
 }
 
-
+@font-face {
+    font-family: Jacquard 24 Charted;
+    src: url(J24.ttf);
+}
 
 
 /* Fonts in the title */
