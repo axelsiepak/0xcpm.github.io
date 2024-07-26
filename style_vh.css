@@ -11,8 +11,8 @@ body
   font-family: monospace;
 }
 @font-face {
-    font-family: Jacquard 24 Charted;
-    src: url(Jacquard24Charted-Regular.ttf);
+    font-family: "Jersey 25 Charted;
+    src: url(Jersey25Charted-Regular.ttf);
 }
 
 div.credits { font-family: monospace; font-size: 80%; text-align: right; margin: 10px }
@@ -130,7 +130,7 @@ div.credits { font-family: monospace; font-size: 80%; text-align: right; margin:
   padding: 10px 0;
   font-size: 51px;
   color: var(--color-text);
-  font-family: "Jacquard 24 Charted" ;
+  font-family: "Jersey 25 Charted" ;
 }
 
 /*
