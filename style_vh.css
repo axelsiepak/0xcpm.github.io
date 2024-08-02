@@ -8,13 +8,16 @@ body
   /* make it look decent enough */
   background: var(--color-bg);
   color: var(--color-text);
-  font-family: monospace;
+  font-family: "Iosevka";
 }
 @font-face {
     font-family: "Jersey 25 Charted";
     src: url(Jersey25Charted-Regular.ttf);
 }
-
+@font-face {
+    font-family: "Iosevka";
+    src: url(Iosevka.ttf);
+}
 div.credits { font-family: monospace; font-size: 80%; text-align: right; margin: 10px }
 
 

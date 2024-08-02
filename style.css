@@ -9,14 +9,17 @@ body
   /* make it look decent enough */
   background: var(--color-bg);
   color: var(--color-text);
-  font-family: monospace;
+  font-family: "Iosevka";
 }
 
 @font-face {
     font-family: "Jersey 25 Charted";
     src: url(Jersey25Charted-Regular.ttf);
 }
-
+@font-face {
+    font-family: "Iosevka";
+    src: url(Iosevka.ttf);
+}
 
 /* Fonts in the title */
 h1.title { font-family: monospace; font-size: 200%; font-weight: bold; text-align: center; }
