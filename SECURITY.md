@@ -1,1 +1,3 @@
-report any breach through electronic message (cf. contact.html)
+
+## Reporting a Vulnerability
+email me : 0xcpm@proton.me_
