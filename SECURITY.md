@@ -1,3 +1,3 @@
 
 ## Reporting a Vulnerability
-email me : 0xcpm@proton.me _
+0xcpm@proton.me
