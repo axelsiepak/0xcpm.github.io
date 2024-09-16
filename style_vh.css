@@ -12,11 +12,11 @@ body
 }
 @font-face {
     font-family: "Jersey 25 Charted";
-    src: url(Jersey25Charted-Regular.ttf);
+    src: url(extras/Jersey25Charted-Regular.ttf);
 }
 @font-face {
     font-family: "Iosevka";
-    src: url(Iosevka.ttf);
+    src: url(extras/Iosevka.ttf);
 }
 div.credits { font-family: monospace; font-size: 80%; text-align: right; margin: 10px }
 
