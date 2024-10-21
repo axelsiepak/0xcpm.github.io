@@ -11,8 +11,8 @@ body
   font-family: "Iosevka";
 }
 @font-face {
-    font-family: "Jersey 25 Charted";
-    src: url(extras/Jersey25Charted-Regular.ttf);
+    font-family: "bcbd";
+    src: url(extras/bcbd.ttf);
 }
 @font-face {
     font-family: "Iosevka";
@@ -133,7 +133,7 @@ div.credits { font-family: monospace; font-size: 80%; text-align: right; margin:
   padding: 10px 0;
   font-size: 51px;
   color: var(--color-text);
-  font-family: "Jersey 25 Charted" ;
+  font-family: "bcbd" ;
 }
 
 /*
