@@ -1,7 +1,5 @@
-
 body
-{
-  
+{  
   padding: 0;
   width: 97%;
   height: 97%;
@@ -166,7 +164,7 @@ div.credits { font-family: monospace; font-size: 80%; text-align: right; margin:
   --color-table-row-odd: #fbfbfb;
   --color-toggle-accent: #ff7900;
   --color-text: #333;
-)}
+}
 
 /*
   Dark Mode Color Scheme
@@ -248,12 +246,10 @@ html.dark {
 #color-mode-switch label:active:after {
   width: 30px;
 }
-//*
+/*
   Apply colors to general doc selectors
 */
 html, body {
   background-color: var(--color-bg);
   color: var(--color-text);
 }
-
-/*

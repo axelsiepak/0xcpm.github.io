@@ -1,5 +1,3 @@
-
-
 body
 {
   margin-right: 2500px;
@@ -197,7 +195,7 @@ a:active { color: #ff00ff; }
   --color-table-row-odd: #fbfbfb;
   --color-toggle-accent: #ff7900;
   --color-text: #333;
-)}
+}
 
 /*
   Dark Mode Color Scheme
@@ -279,12 +277,10 @@ html.dark {
 #color-mode-switch label:active:after {
   width: 30px;
 }
-//*
+/*
   Apply colors to general doc selectors
 */
 html, body {
   background-color: var(--color-bg);
   color: var(--color-text);
 }
-
-/*
